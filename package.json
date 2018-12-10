@@ -1,0 +1,17 @@
+{
+  "name": "vue-fine",
+  "version": "0.0.7",
+  "author": "bradyzhang<creatuture@gmail.com>",
+  "description": "Fine state manager with ajax, optimize vue-typescript use experience",
+  "main": "dist/index.js",
+  "typings":  "types/index.d.ts",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "nanoid": "^2.0.0"
+  }
+}
