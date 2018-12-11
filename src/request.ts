@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
-import { AjaxResponse, RequestConfig, RequestInstance } from '.';
+import { AjaxResponse, RequestConfig, RequestInstance } from '../types';
 import { generateUnionId } from './util';
 
 
@@ -20,7 +20,7 @@ export default (config: RequestConfig): RequestInstance => {
             'X-Requested-With': 'XMLHttpRequest'
         },
         responseType: 'json',
-        transformResponse: [(data) => {
+        transformResponse: [(data: any) => {
             // 对 data 进行任意转换处理
             if (!data) {
                 return data;

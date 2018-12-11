@@ -1,5 +1,5 @@
 import createRequest from './request';
-import { RequestConfig, RequestInstance, RequestType } from '.';
+import { RequestConfig, RequestInstance, RequestType } from '../types';
 
 export class Fine {
     constructor(config: RequestConfig, resCode: number, showMessage: Function) {
