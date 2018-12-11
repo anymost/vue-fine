@@ -1,10 +1,10 @@
 {
   "name": "vue-fine",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "author": "bradyzhang<creatuture@gmail.com>",
   "description": "Fine state manager with ajax, optimize vue-typescript use experience",
-  "main": "dist/index.js",
-  "typings":  "types/index.d.ts",
+  "main": "src/index.ts",
+  "typings": "types/index.d.ts",
   "scripts": {
     "build": "tsc src/index.ts --outDir dist",
     "test": "echo \"Error: no test specified\" && exit 1"

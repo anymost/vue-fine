@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
-import { AjaxResponse, RequestConfig, RequestInstance } from '../types';
+import { AjaxResponse, RequestConfig, RequestInstance } from '.';
 import { generateUnionId } from './util';
 
 
